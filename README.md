@@ -11,3 +11,7 @@ generate 'package.json'
 #master
 初始化项目，webpack构建依赖图，bundle解决调用板块之间的依赖关系,在dist文件夹下编译出main.js
 配置webpack的配置文件：webpack.config.js
+
+# asset management
+管理图片、字体等文件，添加相应的loader(css-loader,file-loader,style-loader,xml-loader,csv-loader)
+可以将资源与代码组合在一起，使资源紧密耦合
