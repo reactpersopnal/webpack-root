@@ -15,3 +15,9 @@ generate 'package.json'
 # asset management
 管理图片、字体等文件，添加相应的loader(css-loader,file-loader,style-loader,xml-loader,csv-loader)
 可以将资源与代码组合在一起，使资源紧密耦合
+
+# output management（feature/output）
+无需在index.html中手动引入所有资源;动态添加output的名称-----HtmlWebpackPlugin、、、
+Webpack-manifest-plugin生成manifest.json,显示输出管理
+
+
