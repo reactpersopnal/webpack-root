@@ -20,7 +20,11 @@ generate 'package.json'
 无需在index.html中手动引入所有资源;动态添加output的名称-----HtmlWebpackPlugin、、、
 Webpack-manifest-plugin生成manifest.json,显示输出管理
 
-# dev
+# dev (feature/dev)
 开发环境追踪错误和警告，inline-source-map
 选择自动编译工具webpack's Watch Mode(手动刷新浏览器)，webpack-dev-server(实时重新加载)，
 webpack-dev-middleware(容器wrapper，把webpack处理后的文件传递给一个服务器server；配合express server;node server.js)
+
+# 模块热替换
+允许运行时更新各种模块，无需进行完全刷新
+重点为dev-server.js中的内容
