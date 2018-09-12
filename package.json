@@ -4,10 +4,14 @@
   "description": "尝试webpack官网上的全部内容，结合相应项目中的内容进行分析学习 # 当前项目的版本 webpack 4.18.0 添加的版本为webpack 4+ ，还需安装webpack-cli",
   "private": true,
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "lodash": "^4.17.10",
-    "webpack": "^4.18.0"
+    "webpack": "^4.18.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
+    "exports-loader": "^0.7.0",
+    "imports-loader": "^0.8.0",
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
