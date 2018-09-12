@@ -11,3 +11,7 @@ generate 'package.json'
 #master
 初始化项目，webpack构建依赖图，bundle解决调用板块之间的依赖关系,在dist文件夹下编译出main.js
 配置webpack的配置文件：webpack.config.js
+
+# Typescript
+(1)使用ts第三方库，需要安装声明@types/lodash
+(2)兼容其他导入类型。编写自定义的类型声明
