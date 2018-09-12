@@ -1,28 +1,24 @@
 {
-  "name": "webpack",
+  "name": "webpack-root",
   "version": "1.0.0",
-  "description": "尝试webpack官网上的全部内容，结合相应项目中的内容进行分析学习 # 当前项目的版本 webpack 4.18.0 添加的版本为webpack 4+ ，还需安装webpack-cli",
-  "private": true,
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "webpack": "^4.18.0"
-  },
-  "devDependencies": {
-    "webpack-cli": "^3.1.0"
-  },
+  "description": "",
+  "main": "dist/webpack-numbers.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactpersopnal/webpack.git"
+    "url": "git+https://github.com/reactpersopnal/webpack-root.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reactpersopnal/webpack/issues"
+    "url": "https://github.com/reactpersopnal/webpack-root/issues"
   },
-  "homepage": "https://github.com/reactpersopnal/webpack#readme"
+  "homepage": "https://github.com/reactpersopnal/webpack-root#readme",
+  "devDependencies": {
+    "lodash": "^4.17.10",
+    "webpack": "^4.18.0"
+  }
 }
