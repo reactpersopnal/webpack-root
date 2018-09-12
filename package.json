@@ -1,5 +1,6 @@
 {
   "name": "webpack",
+  "sideEffects": false,
   "version": "1.0.0",
   "description": "尝试webpack官网上的全部内容，结合相应项目中的内容进行分析学习 # 当前项目的版本 webpack 4.18.0 添加的版本为webpack 4+ ，还需安装webpack-cli",
   "private": true,

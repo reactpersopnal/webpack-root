@@ -11,3 +11,9 @@ generate 'package.json'
 #master
 初始化项目，webpack构建依赖图，bundle解决调用板块之间的依赖关系,在dist文件夹下编译出main.js
 配置webpack的配置文件：webpack.config.js
+
+# tree shaking (feature/tree)
+移除未引用代码-----优化输出，减少bundle.js的大小
+(1)使用ES2015的import和export
+(2)package.json添加sideEffects
+(3)引用一个删除为引用代码的压缩工具manifier（e.g UglifyJSPlugin）
