@@ -28,7 +28,10 @@ Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.o
 (3)动态导入，通过模块的内联函数调用
 使用import
 
-
+# 缓存(feature/caching)
+通过缓存，加快网站加载速度，不更改文件名称，浏览器会默认没有更新
+将类似于react的第三方库提取到单独的vendor chunk文件中
+修复vensor每次加载后hash改变，因为自身的moduel.id改变，所以文件名中的hash会改变，生产环境推荐HashedModuleIdsPlugins修改这一问题
 
 
  
