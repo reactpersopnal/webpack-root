@@ -20,4 +20,9 @@ generate 'package.json'
 无需在index.html中手动引入所有资源;动态添加output的名称-----HtmlWebpackPlugin、、、
 Webpack-manifest-plugin生成manifest.json,显示输出管理
 
+# 渐进式网络应用程序PWA
+(1)离线时继续运行
+(2)通过http-server简易搭建服务器;
+(3)workbox;Error:SW registration failed DOMException: Only secure origins are allowed (see: https://goo.gl/Y0ZkNV).
+网站不信任问题
 
