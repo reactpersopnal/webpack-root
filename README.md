@@ -28,6 +28,10 @@ Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.o
 (3)动态导入，通过模块的内联函数调用
 使用import
 
+# 懒加载
+将代码在一些逻辑点处分离，在一些代码块中完成某些操作之后，立即引用或者即将引用另外一些新的代码块
+直到调用的时候才会加载对应的模块
+
 
 
 
