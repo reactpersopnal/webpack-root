@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack-root",
   "version": "1.0.0",
   "description": "尝试webpack官网上的全部内容，结合相应项目中的内容进行分析学习 # 当前项目的版本 webpack 4.18.0 添加的版本为webpack 4+ ，还需安装webpack-cli",
   "private": true,
@@ -16,7 +16,8 @@
     "style-loader": "^0.23.0",
     "webpack-cli": "^3.1.0",
     "webpack-manifest-plugin": "^2.0.3",
-    "xml-loader": "^1.2.1"
+    "xml-loader": "^1.2.1",
+    "webpack": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

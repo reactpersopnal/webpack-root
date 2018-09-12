@@ -20,4 +20,15 @@ generate 'package.json'
 无需在index.html中手动引入所有资源;动态添加output的名称-----HtmlWebpackPlugin、、、
 Webpack-manifest-plugin生成manifest.json,显示输出管理
 
+# 代码分离(feature/code-spliting)
+三种代码分离方式：（1）入口起点entry:入口包含重复模块，重复模块都会被引入到各个bundle
+（2）防止重复：CommonsChunkPlugin去重和分离chunk,将公共依赖提取到已有的入口chunk
+Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.optimization.splitChunks instead.
+已经使用config.optimization.splitChunks解决
+(3)动态导入，通过模块的内联函数调用
+使用import
 
+
+
+
+ 
