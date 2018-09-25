@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.116",
+    "file-loader": "^2.0.0",
     "ts-loader": "^5.1.0",
     "typescript": "^3.0.3",
     "webpack-cli": "^3.1.0"

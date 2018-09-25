@@ -15,3 +15,4 @@ generate 'package.json'
 # Typescript
 (1)使用ts第三方库，需要安装声明@types/lodash
 (2)兼容其他导入类型。编写自定义的类型声明
+添加custom.d.ts文件来编写自定义的类型声明，用以兼容不同类型的资源

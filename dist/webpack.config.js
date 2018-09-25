@@ -8,6 +8,12 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
+            },
+            {
+                test: /\.(jpg||svg||jpg||gif)$/,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     },

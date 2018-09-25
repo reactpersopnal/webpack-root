@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: './src/image.ts',
     devtool: 'inline-source-map',
     module: {
         rules: [
@@ -9,6 +9,12 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
+            },
+            {
+                test: /\.(jpg||svg||jpg||gif)$/,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     },
